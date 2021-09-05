@@ -11,6 +11,7 @@ namespace CursoCSharp.Fundamentos {
             Console.WriteLine(nome.Replace("JHONATAN", "Marcello"));
 
             Console.WriteLine( nome.Length);
+            Console.WriteLine( nome.ToUpper());
            
 
         }

@@ -1,12 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
-
 using CursoCSharp.Fundamentos;
+using CursoCSharp.EstruturaDeControle;
+using CursoCSharp.ClassesEMetodos;
 
 namespace CursoCSharp {
     class Program {
         static void Main(string[] args) {
             var central = new CentralDeExercicios(new Dictionary<string, Action>() {
+                //Fundamentos
                 {"Primeiro Programa - Fundamentos", PrimeiroPrograma.Executar},
                 {"Comentários - Fundamentos", Comentarios.Executar},
                 {"Variáveis e constantes - Fundamentos", VariaveisEConstantes.Executar},
@@ -22,6 +24,22 @@ namespace CursoCSharp {
                 {"Operadores de atribuição - Fundamentos", OperadoresAtribuicao.Executar},
                 {"Operadores unários - Fundamentos", OperadoresUnarios.Executar},
                 {"Operador ternário - Fundamentos", OperadorTernario.Executar},
+                
+
+                //Estrutura de controle
+                {"Estrutura IF - Estrutura de controle", EstruturaIf.Executar},
+                {"Estrutura IF/ELSE - Estrutura de controle", EstruturaIfElse.Executar},
+                {"Estrutura IF/ELSE IF -Estrutura de controle", EstruturaIfElseIf.Executar},
+                {"Estrutura SWITCH - Estrutura de controle", EstruturaSwitch.Executar},
+                {"Estrutura While - Estrutura de controle", EstruturaWhile.Executar},
+                {"Estrutura Do/While - Estrutura de controle", EstruturaDoWhile.Executar},
+                {"Estrutura For - Estrutura de controle", EstruturaFor.Executar},
+                {"Estrutura For Each - Estrutura de controle", EstruturaForEach.Executar},
+                {"Usando Break - Estrutura de controle", UsandoBreak.Executar},
+                
+                //Classes e métodos 
+                {"Membros - Classes e métodos", Membros.Executar},
+
             });
 
             central.SelecionarEExecutar();

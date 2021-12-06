@@ -7,6 +7,7 @@ namespace CursoCSharp.Fundamentos {
 
         public static void Executar() {
             Console.WriteLine("Novamente primeiro programa");
+            Console.WriteLine("Linha adicionada no windows");
             
         }
     }

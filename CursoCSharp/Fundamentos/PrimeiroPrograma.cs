@@ -9,6 +9,7 @@ namespace CursoCSharp.Fundamentos {
             Console.WriteLine("Novamente primeiro programa");
             Console.WriteLine("Linha adicionada no windows");
             Console.WriteLine("Linha adicionada no windows pelo segundo visual");
+            Console.WriteLine("Linha gordin");
             
         }
     }

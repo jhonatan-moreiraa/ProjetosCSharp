@@ -8,8 +8,8 @@ namespace CursoCSharp.Fundamentos {
         public static void Executar() {
 
             Console.WriteLine("Não escrever comentários desnecessários");
-            Console.WriteLine("Não escrever comentários desnecessários");
-            Console.WriteLine("Não escrever comentários desnecessários");
+            Console.WriteLine("Não escrever comentários desnecessários novamente");
+            
         }
     }
 }
